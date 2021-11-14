@@ -15,7 +15,7 @@ type GpuPriceType = {
   minorPriceDate: string;
 };
 
-axios.defaults.baseURL = "http://localhost:4000";
+axios.defaults.baseURL = "https://gpuobserver.herokuapp.com";
 
 const Overview: React.FC = () => {
   const [gpuPrices, setGpuPrices] = useState<GpuPriceType[]>([]);
