@@ -91,7 +91,7 @@ const Overview: React.FC = () => {
               <div className="valor-date">
                 <div>
                   <p className="strong">Valor</p>
-                  <p>{`R\$ ${gpuPrice.minorPrice}`}</p>
+                  <p>{`R$ ${gpuPrice.minorPrice}`}</p>
                 </div>
                 <div className="divisor" />
                 <div>
